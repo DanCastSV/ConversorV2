@@ -16,6 +16,7 @@ class Change : AppCompatActivity() {
         val Update:Button=btnActualizar
 
         Update.setOnClickListener {
+            //manda los datos obtenidos
             val EUR: Float =etxEUR.text.toString().toFloat()
             val sharedPref = getSharedPreferences("MySharedPreferences", MODE_PRIVATE)
             val  myEdit = sharedPref.edit()
