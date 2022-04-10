@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ConversorV2">
         <activity
+            android:name=".Estudiantes"
+            android:exported="false" />
+        <activity
             android:name=".Change"
             android:exported="false" />
         <activity
